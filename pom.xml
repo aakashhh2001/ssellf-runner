@@ -83,7 +83,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/aakashhh2001/aami-app</url>
+            <url>https://maven.pkg.github.com/aakashhh2001/ssellf-runner.git</url>
         </repository>
     </distributionManagement>
 
@@ -92,7 +92,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/aakashhh2001/aami-app</url>
+            <url>https://maven.pkg.github.com/aakashhh2001/ssellf-runner.git</url>
         </repository>
     </repositories>
 
