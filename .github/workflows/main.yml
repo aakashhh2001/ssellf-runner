@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name:  Build
-    runs-on: bhuvan
+    runs-on: akash
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -26,7 +26,7 @@ jobs:
 
   test:
     name:  Test
-    runs-on: bhuvan
+    runs-on: akash
     needs: build
     steps:
       - name: Checkout code
@@ -44,7 +44,7 @@ jobs:
 
   deploy:
     name:  Deploy to GitHub Packages
-    runs-on: bhuvan
+    runs-on: akash
     needs: test
     if: github.ref == 'refs/heads/main'
     permissions:
